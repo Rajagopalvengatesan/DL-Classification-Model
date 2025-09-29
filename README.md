@@ -157,8 +157,8 @@ class_report = classification_report(actuals, predictions, target_names=iris.tar
 
 # Print details
 
-print("\nName:SANJAI S")
-print("Register No: 212223230185")
+print("\nName:RAJA V")
+print("Register No: 212223240134")
 print(f'Test Accuracy: {accuracy:.2f}%')
 print("Confusion Matrix:\n", conf_matrix)
 print("Classification Report:\n", class_report)
@@ -180,8 +180,8 @@ with torch.no_grad():
     predicted_class_index = torch.argmax(output[0]).item()
     predicted_class_label = iris.target_names[predicted_class_index]
 
-print("\nName:SANJAI S")
-print("Register No: 212223230185")
+print("\nName:RAJA V")
+print("Register No: 212223240134")
 print(f'Predicted class for sample input: {predicted_class_label}')
 print(f'Actual class for sample input: {iris.target_names[y_test[5].item()]}')
 ```
